@@ -328,12 +328,12 @@ transform:translateY(0);
 
 .benefits p { color: #8A8A8A; }
 
-.benefits div[class^="col-"]:nth-child(1),
-.benefits div[class^="col-"]:nth-child(2),
-.reviews div[class^="col-"]:nth-child(1),
-.reviews div[class^="col-"]:nth-child(2),
-.team div[class^="col-"]:nth-child(1),
-.team div[class^="col-"]:nth-child(2) { padding-bottom: 1.5em; }
+.benefits div[class^="col-"]:nth-child(odd),
+.benefits div[class^="col-"]:nth-child(even),
+.reviews div[class^="col-"]:nth-child(odd),
+.reviews div[class^="col-"]:nth-child(even),
+.team div[class^="col-"]:nth-child(odd),
+.team div[class^="col-"]:nth-child(even) { padding-bottom: 1.5em; }
 
 .benefits div[class^="col-"] > p:last-child { margin-bottom: 0; }
 
@@ -343,8 +343,8 @@ transform:translateY(0);
    
 .features { overflow-x: hidden; }
 
-.features div[class="row"]:nth-child(1),
-.features div[class="row"]:nth-child(2) { margin-bottom: 3em; }
+.features div[class="row"]:nth-child(odd),
+.features div[class="row"]:nth-child(even) { margin-bottom: 3em; }
 
 .features article { margin-top: 1.5em; }
 
@@ -369,7 +369,7 @@ transform:translateY(0);
   padding-right: .5em;
 }
 
-.features div[class="row"]:nth-child(3) .col-md-4 article { margin-bottom: 1.5em; }
+/*.features div[class="row"]:nth-child(3) .col-md-4 article { margin-bottom: 1.5em; }*/
 
 /* ==========================================================================
    8.video tour
@@ -659,9 +659,9 @@ blockquote cite {
 
 .team-details figure figcaption div p { transition-delay: 0.05s; }
 
-.team-details figure figcaption div li:nth-child(1) a { transition-delay: 0.1s; }
+.team-details figure figcaption div li:nth-child(odd) a { transition-delay: 0.1s; }
 
-.team-details figure figcaption div li:nth-child(2) a { transition-delay: 0.15s; }
+.team-details figure figcaption div li:nth-child(even) a { transition-delay: 0.15s; }
 
 .team-details .social { margin-top: .75em; }
 
@@ -890,12 +890,12 @@ blockquote cite {
 
 .section-header h3 { font-size: 26px; }
 
-.benefits div[class^="col-"]:nth-child(1),
-.benefits div[class^="col-"]:nth-child(2),
-.reviews div[class^="col-"]:nth-child(1),
-.reviews div[class^="col-"]:nth-child(2),
-.team div[class^="col-"]:nth-child(1),
-.team div[class^="col-"]:nth-child(2) { padding-bottom: 0; }
+.benefits div[class^="col-"]:nth-child(odd),
+.benefits div[class^="col-"]:nth-child(even),
+.reviews div[class^="col-"]:nth-child(odd),
+.reviews div[class^="col-"]:nth-child(even),
+.team div[class^="col-"]:nth-child(odd),
+.team div[class^="col-"]:nth-child(even) { padding-bottom: 0; }
 
 .tour .btn { margin: 0 0 0 1em; }
 
@@ -957,8 +957,8 @@ blockquote::before {
 
 .contact.section-spacing { padding: 6em 0 0; }
 
-.features div[class="row"]:nth-child(1),
-.features div[class="row"]:nth-child(2) { margin-bottom: 7.5em; }
+.features div[class="row"]:nth-child(odd),
+.features div[class="row"]:nth-child(even) { margin-bottom: 7.5em; }
 
 .features article { margin-top: 6em; }
 
@@ -970,7 +970,7 @@ blockquote::before {
   left: 22px;
 }
 
-.features div[class="row"]:nth-child(2) .col-md-7 img { left: -277px; }
+.features div[class="row"]:nth-child(even) .col-md-7 img { left: -277px; }
 
 .featured-sites li { padding: 0 3em; }
 
