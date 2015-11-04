@@ -1,0 +1,209 @@
+.navbar-default.stuck .navbar-nav .btn {
+  display: inline-block;
+  background: #275f82;
+  color: #fff;
+  border: 1px solid white;
+}
+
+.navbar-default.stuck .navbar-nav .btn:hover,
+.navbar-default.stuck .navbar-nav .btn:focus {
+  background: #275f82!important;
+  color: #fff;
+}
+
+.features {
+  background-color: #fff;
+}
+
+.features article li:before {
+  content: "• ";
+  color: #275f82;
+  padding-right: .5em;
+}
+
+.plan-features li i {
+  padding-left: .5em;
+  color: #275f82;
+}
+
+.cta-section { background-color: #275f82; }
+
+.team-details figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #275f82;
+  transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  -ms-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  padding: 1.5em 1em;
+  display: block;
+}
+
+.btn {
+  padding: 1em 3em;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #275f82;
+  line-height: 1.5;
+  border: none;
+  border-radius: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+  transition: all 0.3s ease-in-out;
+
+}
+
+.btn:hover {
+  color: #275f82;
+  background-color: white;
+
+}
+  
+
+.btn:active,
+.btn:focus,
+.btn:active:hover,
+.btn:active:focus {
+  color: #fff;
+  outline: none;
+  background-color: #275f82;
+}
+
+.btn:active, .btn:focus, .btn:hover:active, .btn:focus:active {
+    color: #fff;
+    outline: none;
+    background-color: #275f82;
+}
+
+a {
+  color: #275f82;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: #275f82;
+  text-decoration: none;
+}
+
+.cta-section .btn {
+  background-color: #fff;
+  color: #275f82;
+  border: 1px solid;
+  border-color: #275f82;
+}
+
+   
+.pricing {
+  background: url(../img/bg-pricing.jpg) center center no-repeat scroll;
+  background-size: cover;
+  position: relative;
+}
+
+.pricing::before { background: rgba(0, 0, 0, 0.0); }
+
+.pricing .section-header h2,
+.pricing .section-header h3 {
+  position: relative;
+  color: #275f82;
+}
+
+.plan {
+  background-color: #275f82;
+  width: 350px;
+  display: inline-block;
+  margin: 0 0 1.5em;
+  max-width: 100%;
+}
+
+.plan:last-child { margin-bottom: 0; }
+
+.plan .header,
+.price,
+.plan-features { padding: 1.5em 1em; }
+
+.plan .header h4 {
+  font-size: 21px;
+  margin: 0;
+}
+
+.price {
+  background-color: rgba(9,5,60,0);
+  color: #fff;
+}
+
+.price-amount {
+  font-size: 60px;
+  line-height: 10px;
+}
+
+.period { font-size: 30px; }
+
+.currency {
+  font-size: 30px;
+  vertical-align: top;
+  top: 30px;
+}
+
+.plan-features li {
+  padding-bottom: .75em;
+  font-size: 17px;
+}
+
+.plan-features li:last-child { padding-bottom: 0; }
+
+.plan-features li span { font-weight: 700; }
+
+.plan-features li i {
+  padding-left: .5em;
+  color: #275f82;
+}
+
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  overflow-x: hidden;
+  color: #fff
+}
+
+.price-amount {
+  font-size: 60px;
+}
+
+.plan {
+  width: 260px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+
+.footer-links a:hover { color: #275f82; }
+
+.social li a:hover {
+  color: #fff;
+  background: #275f82;
+}
+
+.section-spacing { padding: 0; }
+
+#filters::before {
+  background-color: rgba(255,255,255,.7);
+}
+
+.features div[class="row"]:nth-child(1) { margin-top: 3em; }
+.features div[class="row"]:nth-child(3) { margin-bottom: 3em; }
+
+@media (min-width: 992px) {
+  .features div[class="row"]:nth-child(1) { margin-top: 7.5em; }
+  .features div[class="row"]:nth-child(3) { margin-bottom: 7.5em; }
+}
