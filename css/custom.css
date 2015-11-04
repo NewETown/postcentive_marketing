@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 .navbar-default.stuck .navbar-nav .btn {
   display: inline-block;
   background: #275f82;
@@ -203,6 +207,25 @@ body {
 .features div[class="row"]:nth-child(1) { margin-top: 3em; }
 .features img {
   max-height: 550px;
+}
+
+#masked {
+  display: none;
+}
+
+#mask {
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: relative;
+}
+
+#mask .nda {
+  width: 40%;
+  height: 40%;
+  top: 20%;
+  position: relative;
+  margin: 0 auto;
 }
 
 @media (min-width: 992px) {
