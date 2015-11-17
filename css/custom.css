@@ -106,12 +106,13 @@ a:focus {
 
    
 .pricing {
-  background: url(../img/bg-pricing.jpg) center center no-repeat scroll;
+  background: url(../img/Instagram-Customer-Marketing.jpg) center center no-repeat scroll;
   background-size: cover;
   position: relative;
+
 }
 
-.pricing::before { background: rgba(0, 0, 0, 0.0); }
+.pricing::before { background: rgba(255,255,255,0.8); }
 
 .pricing .section-header h2,
 .pricing .section-header h3 {
@@ -203,6 +204,17 @@ body {
 #filters::before {
   background-color: rgba(255,255,255,.7);
 }
+#signup::before{
+    background-color: rgba(255,255,255,.8);
+}
+
+#cloud {
+    background-size:cover;
+}
+
+#cloud::before {
+  background-color: rgba(255,255,255,.8);
+}
 
 .features div[class="row"]:nth-child(1) { margin-top: 3em; }
 .features img {
@@ -230,4 +242,13 @@ body {
 
 @media (min-width: 992px) {
   .features div[class="row"]:nth-child(1) { margin-top: 7.5em; }
+}
+
+.hero-section {
+  background: url(../img/marketing-product.jpg) center center no-repeat scroll;
+  background-size: cover;
+  padding: 0 0 4.5em;
+  position: relative;
+  color: #fff;
+  min-height: 720px;
 }
