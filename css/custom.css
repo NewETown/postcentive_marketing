@@ -208,6 +208,14 @@ body {
     background-color: rgba(255,255,255,.8);
 }
 
+#filters {
+    background-size:cover;
+    background-image: url('../img/Marketing-analytics-filters.jpg');
+    background-repeat: no-repeat;
+    padding-bottom:50px; 
+    padding-top: 50px;
+}
+
 #cloud {
     background-size:cover;
 }
