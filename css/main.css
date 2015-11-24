@@ -471,7 +471,7 @@ transform:translateY(0);
 
 .plan .header,
 .price,
-.plan-features { padding: 1.5em 1em; }
+.plan-features { padding: 1.5em 1em;}
 
 .plan .header h4 {
   font-size: 21px;
