@@ -1,0 +1,8 @@
+User-Agent: *
+Disallow: 
+Allow: /fonts/fontawesome-webfont.woff?v=4.4.0
+Allow: /css/bootstrap.min.css
+Allow: /js/bootstrap.min.js
+Allow: /js/retina.min.js
+Allow: /js/jquery.magnific-popup.min.js
+Allow: /js/main.js
