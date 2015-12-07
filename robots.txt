@@ -7,3 +7,5 @@ Allow: /js/retina.min.js
 Allow: /js/jquery.magnific-popup.min.js
 Allow: /js/main.js
 Allow: /js/tweetie.min.js
+
+Sitemap: http://www.postcentive.com/sitemap.xml
