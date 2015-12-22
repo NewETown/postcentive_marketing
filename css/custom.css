@@ -7,6 +7,7 @@ html, body {
   background: #275f82;
   color: #fff;
   border: 1px solid white;
+  width:100px;
 }
 
 .navbar-default.stuck .navbar-nav .btn:hover,
@@ -205,7 +206,7 @@ body {
   background-color: rgba(255,255,255,.7);
 }
 #signup::before{
-    background-color: rgba(255,255,255,.8);
+    background-color: rgba(255,255,255,.6);
 }
 
 #filters {
@@ -248,14 +249,6 @@ body {
   margin: 0 auto;
 }
 
-.hero-section {
-  background: url(../img/marketing-product.jpg) center center no-repeat scroll;
-  background-size: cover;
-  padding: 0 0 4.5em;
-  position: relative;
-  color: #fff;
-  min-height: 720px;
-}
 
 .section-headder-mission-1 {
         font-size: 2.5em; 
@@ -293,3 +286,76 @@ body {
         line-height: 1em;
     }
 }
+
+#signup {
+    background-size:cover;
+    background-color:rgba(255,255,255,.8);
+    background-image: url('../img/Marketing-product.jpg');
+    background-repeat: no-repeat;
+    padding-bottom:50px; 
+    padding-top: 50px;
+    min-height:750px;
+}
+
+.landing-page {
+  background: url(../img/marketing-product.jpg) center center no-repeat scroll;
+  background-size: cover;
+  padding: 0 0 4.5em;
+  position: relative;
+  background-color: #fff;
+  min-height: 900px;
+}
+
+.hero-section {
+  background: url(../img/marketing-product.jpg) center center no-repeat scroll;
+  background-size: cover;
+  padding: 0 0 4.5em;
+  position: relative;
+  color: #fff;
+  min-height: 750px;
+}
+
+.landing-page::before { background: rgba(255, 255, 255, 0.8); }
+
+#alignBottom {
+    position:absolute;
+    bottom:0;
+    margin:20ps;
+}
+
+
+
+.blog-hero-section {
+  background: url(../img/postcentive-blog.jpg) center center no-repeat scroll;
+  background-size: cover;
+  padding: 0 0 4.5em;
+  position: relative;
+  color: #fff;
+  min-height: 500px;
+}
+
+.blog-hero-section::before,
+.blog-hero-section-1::before,
+.video-tour::before,
+.pricing::before,
+.twitter-feed::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.blog-hero-section-1 {
+  background: url(../img/Postcentive-Founding.png) center center no-repeat scroll;
+  background-size: cover;
+  padding: 0 0 4.5em;
+  position: relative;
+  color: #fff;
+  min-height: 500px;
+}
+
+.blog-hero-section::before { background: rgba(0, 0, 0, 0.6); }
+
+.blog-hero-section-1::before { background: rgba(0, 0, 0, 0.6); }
