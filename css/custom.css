@@ -268,7 +268,7 @@ body {
 
 @media (min-width: 992px) {
     .features div[class="row"]:nth-child(1) { 
-      margin-top: 7.5em; 
+      margin-top: 3em; 
     }
     
     .section-headder-mission {

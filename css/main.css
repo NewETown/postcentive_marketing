@@ -53,7 +53,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  color: #4c4c4c;
+  color: black;
 }
 
 h4 {
@@ -116,7 +116,7 @@ strong { font-weight: 600; }
 
 .hero-section::before { background: rgba(0, 0, 0, 0.4); }
 
-.welcome-message { margin-top: 4.5em; }
+.welcome-message { margin-top: 2em; }
 
 .welcome-message h1 {
   font-size: 36px;
@@ -958,7 +958,7 @@ blockquote::before {
 .contact.section-spacing { padding: 6em 0 0; }
 
 .features div[class="row"]:nth-child(odd),
-.features div[class="row"]:nth-child(even) { margin-bottom: 7.5em; }
+.features div[class="row"]:nth-child(even) { margin-bottom: 3em; }
 
 .features article { margin-top: 0px; }
 
