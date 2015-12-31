@@ -4,25 +4,56 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-
 <url>
   <loc>http://www.postcentive.com/</loc>
-  <lastmod>2015-12-05T23:45:28+00:00</lastmod>
-  <priority>1.00</priority>
+  <lastmod>2015-12-31T21:27:41+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.postcentive.com/terms-of-service.html</loc>
-  <lastmod>2015-12-04T21:01:41+00:00</lastmod>
-  <priority>0.20</priority>
+  <loc>http://www.postcentive.com/index.html</loc>
+  <lastmod>2015-12-31T21:27:41+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.postcentive.com/privacy-policy.html</loc>
-  <lastmod>2015-12-04T21:55:40+00:00</lastmod>
-  <priority>0.20</priority>
+  <loc>http://www.postcentive.com/sign-up/</loc>
+  <lastmod>2015-12-31T00:46:46+00:00</lastmod>
 </url>
 <url>
-  <loc>http://www.postcentive.com/copyright-policy.html</loc>
-  <lastmod>2015-12-04T21:01:41+00:00</lastmod>
-  <priority>0.20</priority>
+  <loc>http://www.postcentive.com/blog/</loc>
+  <lastmod>2015-12-31T01:19:30+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/legal/terms-of-service.html</loc>
+  <lastmod>2015-12-31T00:46:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/legal/copyright-policy.html</loc>
+  <lastmod>2015-12-31T00:46:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/legal/privacy-policy.html</loc>
+  <lastmod>2015-12-31T00:46:46+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/blog/Coffee-Shop-Delema.html</loc>
+  <lastmod>2015-12-31T00:46:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/blog/Brand-Loyalty.html</loc>
+  <lastmod>2015-12-31T00:46:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/blog/Embeded-Instagram-Feeds.html</loc>
+  <lastmod>2015-12-31T00:46:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/blog/Importance-of-Customer-Engagement-for-Your-Brand.html</loc>
+  <lastmod>2015-12-31T00:46:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/blog/Instagram-Marketing.html</loc>
+  <lastmod>2015-12-31T00:46:45+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.postcentive.com/Blog/</loc>
+  <lastmod>2015-12-31T01:19:30+00:00</lastmod>
 </url>
 </urlset>
