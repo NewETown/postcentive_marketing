@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
     "use strict";
 
     /* ==========================================================================
@@ -31,16 +31,16 @@ $(function() {
 
 
     $('.tweet').twittie({
-        username: 'envatomarket', // change username here
+        username: 'postcentive', // change username here
         dateFormat: '%b. %d, %Y',
         template: '{{tweet}} {{user_name}}',
         count: 10
-    }, function() {
+    }, function () {
         var item = $('.tweet ul');
 
         item.children('li').first().show().siblings().hide();
-        setInterval(function() {
-            item.find('li:visible').fadeOut(500, function() {
+        setInterval(function () {
+            item.find('li:visible').fadeOut(500, function () {
                 $(this).appendTo(item);
                 item.children('li').first().fadeIn(500);
             });
@@ -70,7 +70,7 @@ $(function() {
        ========================================================================== */
 
 
-    $('.welcome-message').waypoint(function() {
+    $('.welcome-message').waypoint(function () {
 
         var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
 
@@ -91,12 +91,12 @@ $(function() {
    Feature image absolute position height fix
    ========================================================================== */
 
-    $(window).load(function() {
-        var featureImg = function() {
-            $(".features div[class='row'] .col-md-7").each(function() {
+    $(window).load(function () {
+        var featureImg = function () {
+            $(".features div[class='row'] .col-md-7").each(function () {
                 var newHeight = 0,
                     $this = $(this);
-                $.each($this.children(), function() {
+                $.each($this.children(), function () {
                     newHeight += $(this).height();
                 });
                 $this.height(newHeight);
@@ -107,7 +107,7 @@ $(function() {
         featureImg();
 
 
-        $(window).on("resize", function() {
+        $(window).on("resize", function () {
             featureImg();
         });
 
@@ -121,8 +121,8 @@ $(function() {
    Smooth scroll
    ========================================================================== */
 
-    $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    $('a[href*=#]:not([href=#])').click(function () {
+        if (location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
             if (target.length) {
