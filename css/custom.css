@@ -107,7 +107,7 @@ a:focus {
 
    
 .pricing {
-  background: url(../img/Instagram-Customer-Marketing.jpg) center center no-repeat scroll;
+  background: url(../../img/Instagram-Customer-Marketing.jpg) center center no-repeat scroll;
   background-size: cover;
   position: relative;
 
@@ -211,7 +211,7 @@ body {
 
 #filters {
     background-size:cover;
-    background-image: url('../img/Marketing-analytics-filters.jpg');
+    background-image: url('../../img/Marketing-analytics-filters.jpg');
     background-repeat: no-repeat;
     padding-bottom:50px; 
     padding-top: 50px;
@@ -290,7 +290,7 @@ body {
 #signup {
     background-size:cover;
     background-color:rgba(255,255,255,.8);
-    background-image: url('../img/Marketing-product.jpg');
+    background-image: url('../../img/Marketing-product.jpg');
     background-repeat: no-repeat;
     padding-bottom:50px; 
     padding-top: 50px;
@@ -298,7 +298,7 @@ body {
 }
 
 .landing-page {
-  background: url(../img/marketing-product.jpg) center center no-repeat scroll;
+  background: url(../../img/marketing-product.jpg) center center no-repeat scroll;
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
@@ -307,7 +307,7 @@ body {
 }
 
 .hero-section {
-  background: url(../img/marketing-product.jpg) center center no-repeat scroll;
+  background: url(../../img/marketing-product.jpg) center center no-repeat scroll;
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
@@ -326,7 +326,7 @@ body {
 
 
 .blog-hero-section {
-  background: url(../img/postcentive-blog.jpg) center center no-repeat scroll;
+  background: url(../../img/postcentive-blog.jpg) center center no-repeat scroll;
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
@@ -348,7 +348,7 @@ body {
   right: 0;
 }
 .blog-hero-section-1 {
-  background: url(../img/Postcentive-Founding.png) center center no-repeat scroll;
+  background: url(../../img/Postcentive-Founding.png) center center no-repeat scroll;
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
@@ -359,3 +359,20 @@ body {
 .blog-hero-section::before { background: rgba(0, 0, 0, 0.6); }
 
 .blog-hero-section-1::before { background: rgba(0, 0, 0, 0.6); }
+
+
+
+body {
+  font-family: 'proxima-nova', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+.site-footer small,
+.footer-links a {
+  color: #8A8A8A;
+  font-weight: 300;
+  font-size: 16px;
+}

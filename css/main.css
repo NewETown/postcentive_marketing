@@ -94,7 +94,7 @@ strong { font-weight: 600; }
    ========================================================================== */ 
    
 .hero-section {
-  background: url(../img/bg.jpg) center center no-repeat scroll;
+  background: url(../../img/bg.jpg) center center no-repeat scroll;
   background-size: cover;
   padding: 0 0 4.5em;
   position: relative;
@@ -114,7 +114,7 @@ strong { font-weight: 600; }
   right: 0;
 }
 
-.hero-section::before { background: rgba(0, 0, 0, 0.4); }
+.hero-section::before { background: rgba(0, 0, 0, 0.6); }
 
 .welcome-message { margin-top: 2em; }
 
@@ -379,7 +379,7 @@ transform:translateY(0);
   position: relative;
   height: 400px;
   overflow: hidden;
-  background: #333 url(../img/bg-video-preview.jpg) center center no-repeat scroll;
+  background: #333 url(../../img/bg-video-preview.jpg) center center no-repeat scroll;
   background-size: cover;
   -webkit-perspective: 1000;
   perspective: 1000;
@@ -446,7 +446,7 @@ transform:translateY(0);
    ========================================================================== */ 
    
 .pricing {
-  background: url(../img/bg-pricing.jpg) center center no-repeat scroll;
+  background: url(../../img/bg-pricing.jpg) center center no-repeat scroll;
   background-size: cover;
   position: relative;
 }
@@ -698,7 +698,7 @@ blockquote cite {
    ========================================================================== */
    
 .twitter-feed {
-  background: url(../img/bg-twitter.jpg) center center no-repeat scroll;
+  background: url(../../img/bg-twitter.jpg) center center no-repeat scroll;
   background-size: cover;
   position: relative;
 }
@@ -747,7 +747,7 @@ blockquote cite {
 
 .map-head h3 {
   height: 30px;
-  background: url(../img/logo-nav.png) 47px center no-repeat;
+  background: url(../../img/logo-nav.png) 47px center no-repeat;
   background-size: 110px auto;
   text-indent: -999em;
   margin: 12px 0 14px;

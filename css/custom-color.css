@@ -98,7 +98,7 @@ a:focus {
 
    
 .pricing {
-  background: url(../img/bg-pricing.jpg) center center no-repeat scroll;
+  background: url(../../img/bg-pricing.jpg) center center no-repeat scroll;
   background-size: cover;
   position: relative;
 }
